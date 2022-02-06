@@ -4,6 +4,11 @@
             <img src="https://static-cdn.jtvnw.net/badges/v1/3e636937-64e0-4e93-80c2-ec3c4389472e/3" alt="Logo de Light-Manager" class="sized-1 d-inline-block align-text-top me-2">
             <span>Light</span>
         </a>
-        <ul class="navbar-nav"><li class="nav-item"><a href="" class="nav-link">Login</a></li></ul>
+
+        <app-login *ngIf="true; else profile"></app-login>
+        <ng-template #profile>
+            <app-profile></app-profile>
+        </ng-template>
+        
     </div>
 </nav>
