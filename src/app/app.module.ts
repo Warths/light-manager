@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { NavigationComponent } from './component/navigation/navigation/navigation.component';
 import { ProfileComponent } from './component/navigation/profile/profile.component';
 import { LoginComponent } from './component/navigation/login/login.component';
+import { OptionsButtonComponent } from './component/navigation/options-button/options-button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     ProfileComponent,
-    LoginComponent
+    LoginComponent,
+    OptionsButtonComponent
   ],
   imports: [
     BrowserModule
