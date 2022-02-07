@@ -1,0 +1,13 @@
+.options-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
+    color: rgba(0,0,0,.55);
+    border-color: rgba(0,0,0,.1);
+    display: block;
+    transition: filter 1s;
+}
